@@ -9,8 +9,8 @@ RSpec.describe '/' do
 #   #   assign(:songs, Song.all)
 #   # end
 #
-#   it 'calls the helper to display the artist' do
-#     visit '/'
-#     expect(response).to match /Hi/
-#   end
+  it 'calls the helper to display the artist' do
+    visit '/'
+    expect(response).to match /Hi/
+  end
 end

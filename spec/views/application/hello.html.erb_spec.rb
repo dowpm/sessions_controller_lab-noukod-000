@@ -11,6 +11,6 @@ RSpec.describe '/' do
 
   it 'calls the helper to display the artist' do
     render
-    expect(rendered).to match /They Might Be Giants/
+    expect(rendered).to match /Hi/
   end
 end

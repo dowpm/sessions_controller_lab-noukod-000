@@ -1,6 +1,6 @@
 require 'rails_helper'
 
-# RSpec.describe '/' do
+RSpec.describe '/' do
 #   # before do
 #   #   Artist.destroy_all
 #   #   Song.destroy_all
@@ -13,4 +13,4 @@ require 'rails_helper'
 #     visit '/'
 #     expect(response).to match /Hi/
 #   end
-# end
+end

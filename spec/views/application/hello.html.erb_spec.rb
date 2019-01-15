@@ -8,7 +8,7 @@ require 'rails_helper'
 #   #   allow(view).to receive(:display_artist).and_return("They Might Be Giants")
 #   #   assign(:songs, Song.all)
 #   # end
-# 
+#
 #   it 'calls the helper to display the artist' do
 #     visit '/'
 #     expect(response).to match /Hi/

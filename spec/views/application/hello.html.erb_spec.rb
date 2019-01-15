@@ -11,6 +11,6 @@ RSpec.describe '/' do
 #
   it 'calls the helper to display the artist' do
     visit '/'
-    expect(response).to match /Hi/
+    expect(response).to include 'Hi'
   end
 end

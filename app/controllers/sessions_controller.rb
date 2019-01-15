@@ -4,7 +4,7 @@ class SessionsController < ApplicationController
 
   def create
     # binding.pry
-    session[:name] = params[:name] unless params[:name].empty?
+    session[:name] = params[:name] unless params[:name].nil?
     redirect_to '/login' #if params[:name].nil?
   end
 

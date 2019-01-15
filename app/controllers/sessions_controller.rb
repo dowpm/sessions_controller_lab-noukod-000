@@ -8,7 +8,7 @@ class SessionsController < ApplicationController
     if (!name.nil? && name.empty?) or name.nil?
       redirect_to '/login'
     else
-      # redirect_to '/login' if 
+      # redirect_to '/login' if
       session[:name] = params[:name]
       redirect_to '/'
     end
